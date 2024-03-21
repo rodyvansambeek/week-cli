@@ -1,3 +1,5 @@
+# @rodys/week
+
 A simple package to get the current ISO week number using CLI or in code. 
 
 ## Usage from CLI
