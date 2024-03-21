@@ -1,6 +1,6 @@
 {
   "name": "@rodys/week",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool to get the current ISO week number.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
