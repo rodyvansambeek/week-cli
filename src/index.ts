@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import esMain from "es-main";
+
 const getCurrentISOWeek = (date: Date) => {
   const dayOfWeek = date.getDay();
   const currentDay = date.getDate();
@@ -18,6 +20,6 @@ const getCurrentISOWeek = (date: Date) => {
 
 export default getCurrentISOWeek;
 
-if (require.main === module) {
+if (esMain(import.meta)) {
   console.log(getCurrentISOWeek(new Date()));
 }
